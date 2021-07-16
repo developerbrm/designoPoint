@@ -1,0 +1,33 @@
+[data-anim-name="fade-in-up"] {
+  opacity: 0;
+  -webkit-transform: translateY(30%);
+          transform: translateY(30%);
+}
+
+@-webkit-keyframes fade-in-up {
+  to {
+    opacity: 1;
+    -webkit-transform: revert;
+            transform: revert;
+  }
+}
+
+@keyframes fade-in-up {
+  to {
+    opacity: 1;
+    -webkit-transform: revert;
+            transform: revert;
+  }
+}
+
+@-webkit-keyframes svg-path-down {
+  to {
+    stroke-dashoffset: revert;
+  }
+}
+
+@keyframes svg-path-down {
+  to {
+    stroke-dashoffset: revert;
+  }
+}
